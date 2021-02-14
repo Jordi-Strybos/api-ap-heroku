@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 var cors = require('cors');
 
-var originsWhitelist = ['https://dreamy-spence-4b3a09.netlify.app/'];
+var originsWhitelist = ['https://dreamy-spence-4b3a09.netlify.app/html'];
 
 var corsOptions = {
   origin: function(origin, callback){
